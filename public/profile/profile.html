@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Authers</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <nav>
+                <a href="../login/login.html" class="nav-link">Logout</a>
+                <a href="../signup/signup.html" class="nav-link">Sign Up</a>
+            </nav>
+            <h1 id="profile">Welcome to Recipe Management</h1>
+        </header>
+        <section>
+            <h2>Update Your Profile</h2>
+            <form id="update-profile" class="form">
+                <input type="text" placeholder="New Username" id="update-username">
+                <input type="email" placeholder="New Email" id="update-email">
+                <button type="submit">Update Profile</button>
+            </form>
+        </section>
+        <section>
+            <h2>All Profiles</h2>
+            <div id="all-profiles"></div>
+        </section>
+        <section>
+            <a href="../recipe/recipe.html" class="nav-link">Add Your Recipes</a>
+        </section>
+    </div>
+    <script src="https://cdn.socket.io/4.7.5/socket.io.min.js"></script>    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.6.8/axios.min.js"></script>
+    <script src="profile.js"></script>
+</body>
+</html>

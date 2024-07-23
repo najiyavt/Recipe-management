@@ -1,0 +1,5 @@
+cron
+.env
+package-lock.json
+services
+node_modules

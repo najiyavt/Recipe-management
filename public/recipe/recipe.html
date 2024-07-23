@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Management</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+    <div class="nav-container">
+        <a href="../login/login.html">Logout</a>
+        <a href="../signup/signup.html">Sign out</a>
+        <a href="../home/home.html">Home</a>
+    </div>
+
+    <div id="searchSection">
+        <input type="text" id="searchInput" placeholder="Search recipes by name">
+        <button id="searchBtn">Search</button>
+    </div>
+
+    <div class="container">
+        <header>
+            <h2>Recipe Management</h2>
+        </header>
+        <form id="addRecipe">
+            <input type="text" id="name" name="name" placeholder="Enter recipe name" required>
+
+            <input type="number" id="time" name="time" placeholder="Enter cooking time" required>
+
+            <input type="text" id="ingrds" name="ingrds" placeholder="Enter recipe ingredients" required>
+
+            <input type="text" id="intrsctn" name="intrsctn" placeholder="Enter recipe instructions" required>
+
+            <button type="submit">Add recipe</button>
+        </form>
+        <div id="recipeList"></div>   
+        <div id="searchRecipe"></div>
+        <div id="browseRecipes"></div>
+    </div>
+    
+</body>
+<!-- <script src="https://cdn.socket.io/4.7.5/socket.io.min.js"></script>     -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.6.8/axios.min.js"></script>
+<script src="recipe.js"></script>
+</html>

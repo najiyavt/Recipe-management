@@ -1,0 +1,114 @@
+/* Reset default browser styles */
+body, a, form {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+/* Body styles */
+body {
+    font-family: 'Poppins', sans-serif; /* Modern, clean font */
+    background: linear-gradient(135deg, #f8f9fa, #e9ecef); /* Light gradient background */
+    color: #333; /* Dark gray text for elegance */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+/* Container styles */
+.container {
+    background: #fff; /* White background for clarity */
+    border-radius: 15px; /* More pronounced rounded corners */
+    padding: 40px;
+    max-width: 400px;
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Softer shadow for subtle depth */
+    margin: 20px;
+    text-align: center;
+    border: 1px solid #dee2e6; /* Light border for definition */
+}
+
+/* Header styles */
+header {
+    margin-bottom: 30px;
+}
+
+/* Form elements */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Input and button styles */
+input[type="text"], 
+input[type="email"], 
+input[type="password"] {
+    padding: 15px;
+    font-size: 16px;
+    border: 1px solid #ced4da;
+    border-radius: 10px;
+    background: #f8f9fa;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+input:focus {
+    border-color: #6c757d; /* Highlight color on focus */
+    box-shadow: 0 0 5px rgba(108, 117, 125, 0.5);
+    outline: none;
+}
+
+button {
+    padding: 15px;
+    font-size: 16px;
+    color: #fff;
+    background: linear-gradient(135deg, #343a40, #495057); /* Gradient button background */
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.3s;
+}
+
+button:hover {
+    background: linear-gradient(135deg, #495057, #6c757d); /* Darker gradient on hover */
+    transform: translateY(-2px);
+}
+
+/* Link styles */
+a {
+    display: inline-block;
+    margin: 15px 0;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #343a40; /* Matching link color */
+    border-radius: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    transition: color 0.3s, transform 0.3s;
+}
+
+a:hover {
+    color: #0e0e0f; /* Darker shade on hover */
+    transform: translateY(-2px);
+}
+
+/* Page title style */
+h2 {
+    margin-bottom: 20px;
+    font-size: 30px;
+    color: #343a40;
+    font-weight: 700;
+}
+
+/* Adjusting Sign up and Log in link positioning */
+.signup-link,
+.login-link {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #495057;
+}

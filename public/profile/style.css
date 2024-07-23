@@ -1,0 +1,200 @@
+/* Reset default browser styles */
+body, a, form {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+/* Body styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+/* Container styles */
+.container {
+    background: #fff;
+    border-radius: 15px;
+    padding: 20px;
+    max-width: 800px; /* Adjust as needed */
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    text-align: center;
+    border: 1px solid #dee2e6;
+}
+
+/* Header styles */
+header {
+    margin-bottom: 20px;
+}
+
+/* Form elements */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Input and button styles */
+input[type="text"], 
+input[type="email"], 
+input[type="password"],
+textarea {
+    padding: 15px;
+    font-size: 16px;
+    border: 1px solid #ced4da;
+    border-radius: 10px;
+    background: #f8f9fa;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+input:focus, textarea:focus {
+    border-color: #6c757d;
+    box-shadow: 0 0 5px rgba(108, 117, 125, 0.5);
+    outline: none;
+}
+
+button {
+    padding: 15px;
+    font-size: 16px;
+    color: #fff;
+    background: linear-gradient(135deg, #343a40, #495057);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.3s;
+}
+
+button:hover {
+    background: linear-gradient(135deg, #495057, #6c757d);
+    transform: translateY(-2px);
+}
+
+/* Link styles */
+a {
+    display: inline-block;
+    margin: 15px 0;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #607182;
+    border-radius: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    transition: color 0.3s, transform 0.3s;
+}
+
+a:hover {
+    color: #0c0c0d;
+    transform: translateY(-2px);
+}
+
+/* Page title style */
+h2 {
+    margin-bottom: 20px;
+    font-size: 30px;
+    color: #343a40;
+    font-weight: 700;
+}
+
+/* Dynamic content styles */
+.dynamic-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Ensure container expands with content */
+.container {
+    overflow: auto; /* Add scrollbar if necessary */
+}
+
+header h1 {
+    margin-bottom: 20px;
+    font-size: 30px;
+    color: #343a40;
+    font-weight: 700;
+}
+
+/* Navigation styles */
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+/* Section styles */
+section {
+    margin-bottom: 30px;
+}
+
+section h2 {
+    font-size: 24px;
+    color: #495057;
+    margin-bottom: 15px;
+}
+
+/* Form elements */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+input[type="text"], 
+input[type="email"], 
+input[type="password"] {
+    padding: 15px;
+    font-size: 16px;
+    border: 1px solid #ced4da;
+    border-radius: 10px;
+    background: #f8f9fa;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+input:focus {
+    border-color: #6c757d; /* Highlight color on focus */
+    box-shadow: 0 0 5px rgba(108, 117, 125, 0.5);
+    outline: none;
+}
+
+button {
+    padding: 15px;
+    font-size: 16px;
+    color: #fff;
+    background: linear-gradient(135deg, #343a40, #495057); /* Gradient button background */
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.3s;
+}
+
+button:hover {
+    background: linear-gradient(135deg, #495057, #6c757d); /* Darker gradient on hover */
+    transform: translateY(-2px);
+}
+
+/* Profile card styles */
+.profile-card {
+    background: #f8f9fa;
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.profile-card p {
+    margin: 5px 0;
+}
